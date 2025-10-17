@@ -40,12 +40,29 @@ Participants must have access to an **Azure subscription** with the following:
   - The rest of the team should have **Contributor access** to the subscription or a dedicated resource group.  
 - **GitHub Account (Optional)**: Ideally, each participant should have a **GitHub account** for accessing repository resources and collaboration.  
 
-### 🔹 Azure Credit Considerations
-- **Estimated Usage**: Each participant should have access to approximately **$50-100 USD** in Azure credits for the full 2-day event
+### 🔹 Azure Cost Considerations
 - **Cost Optimization**: We'll provide guidance on managing costs and using free tiers where available
 - **Resource Cleanup**: Instructions will be provided for cleaning up resources after the event
 
 ---
+### 🔹 Azure Setup Best Practices
+
+**🏗️ Resource Organization:**
+- **Keep all resources and Resource Groups in the same Region** for ease of understanding and standardization
+- **Add tags to Resources and Resource Groups** when creating them for cost management and identification
+- Most companies have organizational policies on auto-creation of Key Vault & Storage accounts, so **create all resources separately** and stitch them together
+
+**📍 Recommended Regions:**
+Ensure the location/region for each resource is preferably one of the following for smooth testing:
+- **Australia East**
+- **Canada East**  
+- **East US**
+- **East US 2**
+- **France Central**
+- **Japan East**
+- **North Central US**
+- **Sweden Central**
+- **Switzerland North**
 
 ## ✅ Resource Provider Registration  
 
@@ -278,5 +295,6 @@ We're looking forward to an **engaging and inspiring event**—and most importan
 - **Document issues** - note any problems for quick resolution during the event
 - **Collaborate** - work with teammates on prerequisite completion
 - **Stay curious** - come prepared with questions and use cases to explore
+
 
 🚀 **Get ready to innovate, collaborate, and build AI-powered solutions with Microsoft Fabric!** 🎉
